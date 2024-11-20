@@ -1,6 +1,9 @@
-import 'package:archi/Controller/constants/colors/app-colors.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../Controller/constants/colors/app-colors.dart';
+
 
 
 class GradientClass extends StatefulWidget {

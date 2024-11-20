@@ -1,7 +1,9 @@
-import 'package:archi/Controller/constants/app_assets/images.dart';
-import 'package:archi/View/auth_screens/login-screen.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../../Controller/constants/app_assets/images.dart';
+import '../../auth_screens/login-screen.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});

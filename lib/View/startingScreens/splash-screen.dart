@@ -1,12 +1,13 @@
-import 'package:archi/Controller/components/image-component.dart';
-import 'package:archi/Controller/components/primary-text-component.dart';
-import 'package:archi/Controller/constants/app_assets/images.dart';
-import 'package:archi/Controller/constants/colors/app-colors.dart';
-import 'package:archi/View/auth_screens/sign-screen.dart';
-import 'package:archi/View/home_screens/home-screen.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../Controller/components/image-component.dart';
+import '../../Controller/components/primary-text-component.dart';
+import '../../Controller/constants/app_assets/images.dart';
+import '../auth_screens/sign-screen.dart';
+import '../home_screens/home-screen.dart';
 
 class SpalshScreen extends StatefulWidget {
   const SpalshScreen({super.key});

@@ -1,13 +1,11 @@
-import 'package:archi/Controller/constants/app_assets/icons.dart';
-import 'package:archi/Controller/constants/app_assets/images.dart';
-import 'package:archi/Controller/constants/colors/app-colors.dart';
-import 'package:archi/View/auth_screens/sign-screen.dart';
-import 'package:archi/View/gradiebt-container.dart';
-import 'package:archi/View/startingScreens/onboardingScreens/onboarding-screen.dart';
-import 'package:archi/View/startingScreens/splash-screen.dart';
-import 'package:archi/container.dart';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+
+import 'Controller/constants/app_assets/icons.dart';
+import 'Controller/constants/app_assets/images.dart';
+import 'Controller/constants/colors/app-colors.dart';
+import 'View/startingScreens/splash-screen.dart';
 // WAITING TIME
 void main() async
 {

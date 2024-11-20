@@ -1,5 +1,7 @@
-import 'package:archi/Controller/constants/colors/app-colors.dart';
+
 import 'package:flutter/material.dart';
+
+import '../constants/colors/app-colors.dart';
 
 class TextFormWidget extends StatelessWidget {
   String hintText;

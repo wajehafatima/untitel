@@ -1,11 +1,12 @@
-import 'package:archi/Controller/constants/colors/app-colors.dart';
-import 'package:archi/View/auth_screens/login-screen.dart';
-import 'package:archi/View/home_screens/insertDaraScreen/insert-data.dart';
-import 'package:archi/View/home_screens/updatesceen/update-screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/View/home_screens/updatesceen/update-screen.dart';
+
+import '../../Controller/constants/colors/app-colors.dart';
+import '../auth_screens/login-screen.dart';
+import 'insertDaraScreen/insert-data.dart';
 
 class HomeScreen extends StatefulWidget {
    HomeScreen({super.key});

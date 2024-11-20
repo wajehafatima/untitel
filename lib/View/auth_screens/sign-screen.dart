@@ -1,14 +1,14 @@
-import 'package:archi/Controller/components/apploader/apploader.dart';
-import 'package:archi/Controller/components/button-widget.dart';
-import 'package:archi/Controller/components/image-component.dart';
-import 'package:archi/Controller/components/primary-text-component.dart';
-import 'package:archi/Controller/components/text-form-field-widget.dart';
-import 'package:archi/Controller/constants/app_assets/images.dart';
-import 'package:archi/Controller/constants/colors/app-colors.dart';
-import 'package:archi/View/auth_screens/login-screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../Controller/components/apploader/apploader.dart';
+import '../../Controller/components/button-widget.dart';
+import '../../Controller/components/image-component.dart';
+import '../../Controller/components/primary-text-component.dart';
+import '../../Controller/components/text-form-field-widget.dart';
+import '../../Controller/constants/app_assets/images.dart';
+import 'login-screen.dart';
 
 class RegistraytionScreen extends StatefulWidget {
   const RegistraytionScreen({super.key});

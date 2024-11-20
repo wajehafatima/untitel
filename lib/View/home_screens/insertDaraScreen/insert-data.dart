@@ -1,10 +1,11 @@
-import 'package:archi/Controller/components/apploader/apploader.dart';
-import 'package:archi/Controller/components/button-widget.dart';
-import 'package:archi/Controller/components/primary-text-component.dart';
-import 'package:archi/Controller/components/text-form-field-widget.dart';
-import 'package:archi/Controller/constants/colors/app-colors.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+
+import '../../../Controller/components/apploader/apploader.dart';
+import '../../../Controller/components/button-widget.dart';
+import '../../../Controller/components/primary-text-component.dart';
+import '../../../Controller/components/text-form-field-widget.dart';
+import '../../../Controller/constants/colors/app-colors.dart';
 
 class InsertData extends StatefulWidget {
   String userEmail;

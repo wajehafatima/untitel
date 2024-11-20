@@ -1,14 +1,16 @@
-import 'package:archi/Controller/components/apploader/apploader.dart';
-import 'package:archi/Controller/components/button-widget.dart';
-import 'package:archi/Controller/components/image-component.dart';
-import 'package:archi/Controller/components/primary-text-component.dart';
-import 'package:archi/Controller/components/text-form-field-widget.dart';
-import 'package:archi/Controller/constants/app_assets/images.dart';
-import 'package:archi/View/auth_screens/sign-screen.dart';
-import 'package:archi/View/home_screens/home-screen.dart';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/View/auth_screens/sign-screen.dart';
+
+import '../../Controller/components/apploader/apploader.dart';
+import '../../Controller/components/button-widget.dart';
+import '../../Controller/components/image-component.dart';
+import '../../Controller/components/primary-text-component.dart';
+import '../../Controller/components/text-form-field-widget.dart';
+import '../../Controller/constants/app_assets/images.dart';
+import '../home_screens/home-screen.dart';
 
 
 class LoginSCreen extends StatefulWidget {
