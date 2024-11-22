@@ -54,9 +54,9 @@ isLogedin()
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-              ImageComponet(image: AppImages.splashImage),
+             // ImageComponet(image: AppImages.splashImage),
               //Image.asset(AppImages.splashImage,height: 100,),
-              PrimaryTextWidget(text: 'Todo App')
+              PrimaryTextWidget(text: 'Todo App',textweight: FontWeight.w900,textsize:38,)
               //Text('Todo App',style: TextStyle(color: AppColors.appPrimaryColor),)
             ],),
           ),
@@ -64,7 +64,7 @@ isLogedin()
             padding: const EdgeInsets.all(8.0),
             child: Column(children: [
               PrimaryTextWidget(text: 'Developed By',textweight: FontWeight.w100,),
-              PrimaryTextWidget(text: 'Siddique Qureshi',textweight: FontWeight.w900,),
+              PrimaryTextWidget(text: 'Wajeha Fatima',textweight: FontWeight.w900,),
             ],),
           )
         ],

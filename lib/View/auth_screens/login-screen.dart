@@ -56,7 +56,7 @@ Future<void> login()async{
       body: Center(child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-        ImageComponet(image: AppImages.loginImage),
+       // ImageComponet(image: AppImages.loginImage),
         PrimaryTextWidget(text: 'Login'),
         TextFormWidget(hintText: 'Enter your Email', icon: Icons.mail, controller: _emailController),
         TextFormWidget(hintText: 'Enter your Password', icon: Icons.password, controller: _passwordController),

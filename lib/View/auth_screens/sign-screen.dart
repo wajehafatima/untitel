@@ -56,7 +56,7 @@ Future<void> registration()async{
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
 
-          ImageComponet(image: AppImages.signupImage),
+         // ImageComponet(image: AppImages.signupImage),
         SizedBox(height:10),
            PrimaryTextWidget(text: 'Register Your Self'),
          TextFormWidget(hintText: 'Enter Your Email:', icon: Icons.mail, controller: _emailController),
